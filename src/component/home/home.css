@@ -1,0 +1,64 @@
+.container{
+    margin: auto;
+   max-width: 1340px;
+}
+.upper img{
+    width: 40%;
+    animation:moveUpDown 2s infinite
+}
+@keyframes moveUpDown {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.downloadLogo{
+    margin-top: -5%;
+    background: orangered;
+    color: #fff;
+    padding:3% 0% 3% 0% ;
+    width:66%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+   cursor:pointer;
+}
+.upper{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.text{
+    text-align: end;
+}
+.download h2{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lower{
+    margin-top: 180px;
+    text-align: center;
+}
+.lower img{
+    width: 40%;
+}

@@ -1,0 +1,53 @@
+*{
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+}
+.cont{
+    height: 100px;
+    border-bottom: 1px solid #cdcbcb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logoImage{
+      height: 70px;
+}
+.Info1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.navlink, .link{
+    text-decoration-line: none;
+}
+.logIn{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.getStart{
+    background: rgb(214, 59, 2);
+    color: #fff;
+    border: none;
+    outline: none;
+   height: 40px;
+   width: 120px;
+   font-size: 17px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+.content{
+    margin: auto;
+    width:1340px ;
+    height: 300px;
+    margin-top: 10%;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #a6a5a5;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 250px;
+    height: 150px;
+}
+.logo h6{
+    color: grey;
+}
+.logo{
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ul,li, .NavLink{
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+}
+li, .NavLink{
+    cursor: pointer;
+}
+.Info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.NavLink{
+    color: rgb(113, 111, 111);
+}
+.NavLink:hover{
+    color: rgb(2, 2, 79);
+}
+.Info .ul{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.second{
+    width: 50%;
+}
+.svgSocialLogo{
+    height: 40px;
+    width: 20px;
+}
+.svgSocialLogo:hover{
+    fill: orangered;
+}
+.social{
+    margin-top: -7.62%;
+    margin-left: 12%;
+    align-items: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}

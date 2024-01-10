@@ -1,0 +1,31 @@
+.about{
+    width: 1220px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+}
+.left, .right{
+    width: 50%;
+    height: 100%;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.right p{
+    color: grey;
+}
+.left img{
+    width: 80%;
+}

@@ -1,0 +1,27 @@
+.github{
+    width: 740px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
+    margin:auto;
+    margin-top: 30px;
+    background-color: grey;
+}
+.personalInfo{
+    width: 60%;
+    text-align: center;
+}
+.name, .following{
+    font-size: 30px;
+}
+.github .img{
+    height: 100%;
+    width: 40%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
